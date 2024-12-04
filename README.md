@@ -1,2 +1,3 @@
-# Q-Flutter
-İstinye University Student Projects.
+# no_smoke
+
+A new Flutter project.
