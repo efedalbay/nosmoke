@@ -13,6 +13,9 @@ dependencies:
   flutter_secure_storage: ^9.2.2 # Güvenli veri depolama için
   go_router: ^14.6.1            # Sayfa yönlendirme (routing) için
   shared_preferences: ^2.3.3     # Basit veri depolama için
+  dotlottie_loader: ^0.0.4
+  lottie: ^3.1.3
+  path_provider: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -26,3 +29,11 @@ flutter:
     - assets/icons/           # İkonlar için
     - assets/languages/       # Dil dosyaları için
     - assets/motions/        # Animasyon dosyaları için
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Italic.ttf
+          style: italic 
