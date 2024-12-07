@@ -1,4 +1,4 @@
-
+(önemli not: hocam githuba entegre projem run olmuyor. telegramdan ss attım ama dönüş yapmadınız. bende çalışan githubıma bağlı olmayan başka bir projeden ss aldım.)
 # Flutter Projesi
 
   
