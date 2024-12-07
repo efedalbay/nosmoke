@@ -130,7 +130,7 @@ lib/
 
 ## Ekran Görüntüleri
 
-[Uygulama ekran görüntüleri buraya eklenecek]
+![ekran resmi](https://i.hizliresim.com/8851vo6.png)
 
   
 
