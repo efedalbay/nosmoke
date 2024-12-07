@@ -117,25 +117,28 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
 
-      // Alt navigasyon çubuğu
       bottomNavigationBar: BottomNavigationBar(
+
+        selectedItemColor: Colors.black, // Seçili ikonun rengi
+        unselectedItemColor: Colors.black, // Seçili olmayan ikonların rengi
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.home),
-            label: 'Ana Sayfa',
+            icon: Icon(Icons.timer),
+            label: 'Özet',
           ),
           BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.search),
-            label: 'Keşfet',
+            icon: Icon(Icons.favorite),
+            label: 'Sağlık',
           ),
           BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.person),
-            label: 'Profil',
+            icon: Icon(Icons.emoji_events),
+            label: 'Başarılar',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.settings),
+            label: 'Ayarlar',
           ),
         ],
-        onTap: (index) {
-          // Navigasyon işlemleri buraya gelecek
-        },
       ),
     );
   }
